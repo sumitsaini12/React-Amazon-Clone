@@ -5,6 +5,7 @@ import { IoMdArrowDropdown } from 'react-icons/io';
 import { BiSearchAlt2 } from 'react-icons/bi';
 import { IoMdCart } from 'react-icons/io';
 import { allItems } from "../data/searchItems";
+import HeaderBottom from "./HeaderBottom";
 
 function Header() {
 
@@ -15,8 +16,8 @@ function Header() {
 
 
     return (
-        <>
-            <div className="w-full bg-amazon_blue text-white px-4 py-3 flex items-center gap-4">
+        <div className="w-full ">
+            <div className="bg-amazon_blue mx-auto  text-white px-4 py-3 flex items-center gap-4">
                 {/* ======Img====== */}
                 <div className="headerHover">
                     <img className="w-24 mt-2" src={logo} alt="logo" />
@@ -78,7 +79,8 @@ function Header() {
                     </p>
                 </div>
             </div>
-        </>
+            <HeaderBottom />
+        </div>
     );
 }
 export default memo(Header)
