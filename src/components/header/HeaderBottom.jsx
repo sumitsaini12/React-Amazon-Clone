@@ -1,7 +1,7 @@
 import { memo, useState, useRef, useEffect } from "react";
 import { FiMenu } from 'react-icons/fi';
 import { MdClose } from 'react-icons/md';
-import Sidebar from "./Sidebar";
+import Sidebar from "../sidebar/Sidebar";
 import { motion } from "framer-motion";
 
 
@@ -16,7 +16,7 @@ function HeaderBottom() {
                 setSidebar(false);
             }
         })
-    }, [])
+    }, [ref, sidebar])
 
     return (
         <div className="w-full px-4 h-[36px] bg-amazon_light text-white flex items-center">

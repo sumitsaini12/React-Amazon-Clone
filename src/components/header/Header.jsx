@@ -1,10 +1,10 @@
 import { memo, useState } from "react";
-import { logo } from "../assets/index";
+import { logo } from "../../assets/index";
 import { GoLocation } from 'react-icons/go';
 import { IoMdArrowDropdown } from 'react-icons/io';
 import { BiSearchAlt2 } from 'react-icons/bi';
 import { IoMdCart } from 'react-icons/io';
-import { allItems } from "../data/searchItems";
+import { allItems } from "../../data/searchItems";
 import HeaderBottom from "./HeaderBottom";
 
 function Header() {
