@@ -30,7 +30,7 @@ module.exports = {
         whiteText: "#fffff",
         lightText: "#ccc",
         quantity_box: "#F0F2F2",
-        fonterBottom: "#131A22",
+        footerBottom: "#131A22",
       },
       boxShadow: {
         testShadow: "0px 0px 32px 1px rgba(199,199,199,1)",

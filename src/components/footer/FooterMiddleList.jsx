@@ -7,10 +7,6 @@ const FooterMiddleList = ({ title, listItem }) => {
             <div>
                 <h3 className="font-titleFont text-white text-base font-semibold mb-3">{title}</h3>
                 <ul className="font-bodyFont flex flex-col gap-2">
-
-                    {/* {listItem.map((item) => (
-                        <li className="footerLink" key={item.id}></li>
-                    ))} */}
                     {
                         listItem.map((item) =>
                             item.listData.map((data, i) =>

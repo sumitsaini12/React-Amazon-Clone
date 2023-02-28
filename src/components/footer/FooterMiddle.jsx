@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { indianFlag, logo } from "../../assets";
-import { MiddleList } from "../../data/FooterMiddleList";
+import { MiddleList } from "../../data/FooterList";
 import FooterMiddleList from "./FooterMiddleList";
 
 
