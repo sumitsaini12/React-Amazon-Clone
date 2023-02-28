@@ -16,7 +16,7 @@ function Header() {
 
 
     return (
-        <div className="w-full ">
+        <div className="w-full sticky top-0 z-50">
             <div className="bg-amazon_blue mx-auto  text-white px-4 py-3 flex items-center gap-4">
                 {/* ======Img====== */}
                 <div className="headerHover">
